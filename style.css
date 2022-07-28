@@ -6,6 +6,21 @@
 	background-position: center;
 	background-size: cover;
 }
+.carousel-item::before{
+	content: "";
+	position: absolute;
+	background-color: black;
+	opacity: .5;
+	border-radius: 10px;
+	display: block;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.comma-img{
+	width: 55px;
+}
 .scial-icons a i{
 	height: 1rem;
 	width: 1rem;
