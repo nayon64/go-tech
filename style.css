@@ -6,3 +6,7 @@
 	background-position: center;
 	background-size: cover;
 }
+.scial-icons a i{
+	height: 1rem;
+	width: 1rem;
+}
